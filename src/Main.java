@@ -29,7 +29,6 @@ public class Main {
 
         // rimuovo le macchine con cilindrata 500
         gestoreMacchine2.remove500CC();
-        ;
 
         // stampo la lista modificata
         System.out.println("");
