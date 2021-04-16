@@ -2,11 +2,11 @@ package org.corso.esercizio2;
 
 import java.util.*;
 
-public class GestoreMacchine {
+public class GestoreMacchine2 {
 
     private List<Macchina> lista;
 
-    public GestoreMacchine() {
+    public GestoreMacchine2() {
         this.lista = new ArrayList<>();
     }
 
