@@ -1,5 +1,6 @@
 import org.corso.esercizio1.*;
 import org.corso.esercizio2.*;
+import org.corso.esercizio3.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -19,22 +20,29 @@ public class Main {
         System.out.println("");
         System.out.println(gestoreMacchine1.toString());
 
-
-        
         System.out.println("ESERCIZIO 2 \n");
         GestoreMacchine2 gestoreMacchine2 = new GestoreMacchine2();
         gestoreMacchine2.init();
-        
-        //stampo la lista completa
+
+        // stampo la lista completa
         System.out.println(gestoreMacchine2.toString());
 
-        //rimuovo le macchine con cilindrata 500
-        gestoreMacchine2.remove500CC();;
+        // rimuovo le macchine con cilindrata 500
+        gestoreMacchine2.remove500CC();
+        ;
 
-        //stampo la lista modificata
+        // stampo la lista modificata
         System.out.println("");
         System.out.println("");
         System.out.println(gestoreMacchine2.toString());
+
+
+
+        System.out.println("ESERCIZIO 3 \n");
+        GestoreLibreria gestoreLibreria = new GestoreLibreria();
+        gestoreLibreria.init();
+        gestoreLibreria.print();
 
     }
+
 }

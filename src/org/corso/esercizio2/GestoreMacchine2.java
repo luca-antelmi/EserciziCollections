@@ -18,7 +18,7 @@ public class GestoreMacchine2 {
         Macchina macchina4 = new Macchina("Passat", 2001, new Motore(1400));
         Macchina macchina5 = new Macchina("Tigra", 2005, new Motore(500));
 
-        // popolo l'array
+        // popolo la lista
         lista.add(macchina1);
         lista.add(macchina2);
         lista.add(macchina3);
